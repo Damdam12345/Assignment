@@ -1,0 +1,48 @@
+
+body {
+  background-color: lightseagreen;
+  background-attachment: fixed;
+}
+.row {
+    flex: 1;
+    text-align: right;
+}
+.row ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.row ul li a {
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 25px;
+    list-style-type: none;
+}
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+.image {
+    flex-basis: 10%
+}
+.Intro {
+    color: greenyellow;
+    font-size: 20px;
+    padding-left: 20px;
+  
+}
+@media only screen and (max-width: 600px) {
+  body {width: auto; height: auto; font-size: 30px;
+}
+   @media only screen and (min-width: 600px) {
+     body {width: auto; height: auto; font-size:80px;}
+}
+@media only screen and (min-width: 768px) {
+  body {width: auto; height: auto; font-size: 80px; }
+}
+@media only screen and (min-width: 992px) {
+  body {width: auto; height: auto; font-size: 80px;}
+}
