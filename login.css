@@ -1,0 +1,18 @@
+body {
+  border: 3px solid white;
+  border-radius: 25px;
+  text-align: center;
+  background-color: lightpink
+}
+@media only screen and (max-width: 600px) {
+  body {width: auto; height: auto; font-size: 30px;
+}
+   @media only screen and (min-width: 600px) {
+     body {width: auto; height: auto; font-size:80px;}
+}
+@media only screen and (min-width: 768px) {
+  body {width: auto; height: auto; font-size: 80px; }
+}
+@media only screen and (min-width: 992px) {
+  body {width: auto; height: auto; font-size: 80px;}
+}
